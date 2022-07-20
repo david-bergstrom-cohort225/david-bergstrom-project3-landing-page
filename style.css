@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+/* Top Navigation */
+.navigationBar div{
+}
+
+.companyLogo img {
+    width: 100%;
+}
+
+.navLinks {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.navLinks li a:hover {
+    color: rgb(0, 168, 70);
+
+}
+
+.navButtonMenu, .navButtonMenu:focus, .navButtonMenu:hover, .navButtonMenu:active {
+    border: none;
+}
+
+.navButtonText {
+    font-size: 35px;
+}
+
+.registerButton button{
+    margin-left: 15px;
+}
+
+.registerButton button{
+    border-color: #000000
+}
+
+.loginButton {
+    margin-left:10px;
+}
+
+.shoppingButton button{
+    font-size:2rem;
+    border: none;
+
+}
+
+
+
+
+/*******************************/
+
+
+.myborder1 {
+    border: 5px solid rgb(106, 0, 255);
+}
+
+.myborder2 {
+    border: 5px solid red;
+}
+
+.myborder3 {
+    border: 5px solid rgb(89, 255, 39);
+}

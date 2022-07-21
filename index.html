@@ -1,8 +1,9 @@
 <!-- 
 
     Health Logo: https://www.manypixels.co/
-    Main Image: https://unsplash.com/photos/-YHSwy6uqvk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-    Breakfast: https://unsplash.com/photos/FFqNATH27EM
+    Main Image: https://unsplash.com/photos/FPKtCl74Hfs
+                https://unsplash.com/photos/hC7FL8_x12A
+    Breakfast:  https://unsplash.com/photos/FFqNATH27EM
                 https://unsplash.com/photos/y4K7Ydp2z3Y
                 https://unsplash.com/photos/zBONkjGFGko
     Lunch:      https://unsplash.com/photos/kcA-c3f_3FE
@@ -50,10 +51,10 @@
                         <div class="h-100 d-flex justify-content-end align-items-center">
                             <div>
                                 <ul class="mb-0 navLinks">
-                                    <li><a href="#">Breakfast</a></li>
-                                    <li><a href="#">Lunch</a></li>
-                                    <li><a href="#">Dinner</a></li>
-                                    <li><a href="#">Sweets</a></li>
+                                    <li><a href="#breakfast">Breakfast</a></li>
+                                    <li><a href="#lunch">Lunch</a></li>
+                                    <li><a href="#dinner">Dinner</a></li>
+                                    <li><a href="#sweets">Sweets</a></li>
                                 </ul>
                             </div>
 
@@ -96,52 +97,95 @@
                     </div>
                 </div>
             </div>
-            </div>
         </header>
 
 
+
         <main>
-            <!-- Breakfast -->
-            <section class="container-xxl" id="#breakfast">
-                <h1>Breakfast</h1>
-                <div class="foodGallery">
-                    <img src="/images/breakfast/eggs.jpg" alt="Eggs">
-                    <img src="/images/breakfast/pancakes.jpg" alt="Pancakes">
-                    <img src="/images/breakfast/oatmeal.jpg" alt="Oatmeal">
+            <section class="container-xxl mainBackground">
+                <div class="mainImage">
+                    <!--  -->
+                    <div>
+                        <h2 class="defaultTitle">Start The <em>Knew</em> You!</h2>
+                        <p class="defaultText">Take your nutrition to the next level with <b>Knewtrition</b>. We provide
+                            easy to follow
+                            healthy meal recepies and nutritional macros. Whatever you're craving we have it. Sign up
+                            for our <u>free</u> newsletter
+                            <b>TODAY!</b>
+                        </p>
+
+                        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <div class="signUpButton"><button type="button" class="btn">Sign Up!</button></div>
+                    </div>
+
+                    <!-- Image -->
+                    <div><img src="/images/mainImage.jpg" alt="Main Image"></div>
                 </div>
+                <hr class="solid separator">
+            </section>
+
+            <!-- Breakfast -->
+            <section class="container-xxl" id="breakfast">
+                <h1 class="defaultTitle">Breakfast</h1>
+                <div class="foodGallery">
+                    <a href="#"><img src="/images/breakfast/eggs.jpg" alt="Eggs"></a>
+                    <a href="#"><img src="/images/breakfast/pancakes.jpg" alt="Pancakes"></a>
+                    <a href="#"><img src="/images/breakfast/oatmeal.jpg" alt="Oatmeal"></a>
+                </div>
+
+                <div class="foodGalleryButton"><button type="button" class="btn">More</button></div>
+
             </section>
 
             <!-- Lunch -->
-            <section class="container-xxl" id="#lunch">
-                <h1>Lunch</h1>
+            <section class="container-xxl" id="lunch">
+                <h1 class="defaultTitle">Lunch</h1>
                 <div class="foodGallery">
-                    <img src="/images/lunch/salad1.jpg" alt="Tuna Fusion Salad">
-                    <img src="/images/lunch/salad2.jpg" alt="Tex Mex Salad">
-                    <img src="/images/lunch/sandwhich.jpg" alt="Chicken Pesto Sandwich">
+                    <a href="#"><img src="/images/lunch/salad1.jpg" alt="Tuna Fusion Salad"></a>
+                    <a href="#"><img src="/images/lunch/salad2.jpg" alt="Tex Mex Salad"></a>
+                    <a href="#"><img src="/images/lunch/sandwhich.jpg" alt="Chicken Pesto Sandwich"></a>
                 </div>
+
+                <div class="foodGalleryButton"><button type="button" class="btn">More</button></div>
+
             </section>
 
             <!-- Dinner -->
-            <section class="container-xxl" id="#dinner">
-                <h1>Dinner</h1>
+            <section class="container-xxl" id="dinner">
+                <h1 class="defaultTitle">Dinner</h1>
                 <div class="foodGallery">
-                    <img src="/images/dinner/burger.jpg" alt="Eggs">
-                    <img src="/images/dinner/pasta.jpg" alt="Pancakes">
-                    <img src="/images/dinner/tacos.jpg" alt="Oatmeal">
+                    <a href="#"><img src="/images/dinner/burger.jpg" alt="Eggs"></a>
+                    <a href="#"><img src="/images/dinner/pasta.jpg" alt="Pancakes"></a>
+                    <a href="#"><img src="/images/dinner/tacos.jpg" alt="Oatmeal"></a>
                 </div>
+
+                <div class="foodGalleryButton"><button type="button" class="btn">More</button></div>
+
             </section>
 
             <!-- Sweets -->
-            <section class="container-xxl" id="#sweets">
-                <h1>Sweets</h1>
+            <section class="container-xxl" id="sweets">
+                <h1 class="defaultTitle">Sweets</h1>
                 <div class="foodGallery">
-                    <img src="/images/sweets/riceTreats.jpg" alt="Eggs">
-                    <img src="/images/sweets/brownies.jpg" alt="Pancakes">
-                    <img src="/images/sweets/pie.jpg" alt="Oatmeal">
+                    <a href="#"><img src="/images/sweets/riceTreats.jpg" alt="Eggs"></a>
+                    <a href="#"><img src="/images/sweets/brownies.jpg" alt="Pancakes"></a>
+                    <a href="#"><img src="/images/sweets/pie.jpg" alt="Oatmeal"></a>
                 </div>
+
+                <div class="foodGalleryButton"><button type="button" class="btn">More</button></div>
+
             </section>
 
         </main>
+
+        <footer>
+                <!-- Navigation Bar -->
+                <div class="container-xxl">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+        </footer>
 
 
         <script src="index.js"></script>

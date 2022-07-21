@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 
 * {
@@ -7,18 +9,39 @@
     padding: 0;
 }
 
+
+.defaultTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.defaultText {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Top Navigation */
-.navigationBar div {
+
+.navigationBar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
 .companyLogo img {
     width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    height: auto;
 }
 
 .navLinks {
     list-style: none;
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .navLinks li {
@@ -46,14 +69,14 @@
 
 .registerButton button {
     margin-left: 15px;
-}
-
-.registerButton button {
     border-color: #000000
 }
 
 .loginButton {
     margin-left: 10px;
+}
+
+.loginButton button {
 }
 
 .shoppingButton button {
@@ -66,29 +89,118 @@
 
 /* Main Image */
 
+main {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(231, 255, 223, 1) 50%, rgba(172, 252, 152, 1) 100%);
+}
 
+.mainBackground {}
+
+.mainImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.mainImage p {
+    max-width: 500px;
+}
+
+.mainImage img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.signUpButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signUpButton button {
+    background-color: rgb(90, 230, 62);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.signUpButton button:hover, .signUpButton button:focus {
+    background-color: rgb(79, 190, 57);
+}
+
+.separator {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 0;
+}
 
 
 /* Food Gallery */
-.foodGallery{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    max-width: 1200px;
-    width:100%;
+.foodGallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.foodGallery img {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foodGallery a {
+    margin: 20px;
+}
+
+.foodGalleryButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foodGalleryButton button {
+    background-color: rgb(90, 230, 62);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.foodGalleryButton button:hover, .foodGalleryButton button:focus {
+    background-color: rgb(79, 190, 57);
+}
+
+
+
+footer {
+    bottom: 0;
     
 }
 
-.foodGallery img
-{
-    margin: 5px;
-    width:300px;
-    object-fit:cover;
-    border-radius: 20%;
-}
 
-
-.myborder1 {
+/* .myborder1 {
     border: 5px solid rgb(106, 0, 255);
 }
 
@@ -98,4 +210,4 @@
 
 .myborder3 {
     border: 5px solid rgb(89, 255, 39);
-}
+} */

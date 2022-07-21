@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Top Navigation */
-.navigationBar div{
+.navigationBar div {
 }
 
 .companyLogo img {
@@ -39,28 +44,48 @@
     font-size: 35px;
 }
 
-.registerButton button{
+.registerButton button {
     margin-left: 15px;
 }
 
-.registerButton button{
+.registerButton button {
     border-color: #000000
 }
 
 .loginButton {
-    margin-left:10px;
+    margin-left: 10px;
 }
 
-.shoppingButton button{
-    font-size:2rem;
+.shoppingButton button {
+    font-size: 2rem;
     border: none;
-
 }
 
 
 
 
-/*******************************/
+/* Main Image */
+
+
+
+
+/* Food Gallery */
+.foodGallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    max-width: 1200px;
+    width:100%;
+    
+}
+
+.foodGallery img
+{
+    margin: 5px;
+    width:300px;
+    object-fit:cover;
+    border-radius: 20%;
+}
 
 
 .myborder1 {

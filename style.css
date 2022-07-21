@@ -74,13 +74,11 @@
     margin-left: 10px;
 }
 
-.loginButton button {}
 
 .shoppingButton button {
     font-size: 2rem;
     border: none;
 }
-
 
 
 .offcanvasLinks {
@@ -211,7 +209,7 @@ main {
 }
 
 
-
+/* Footer */
 footer {
     bottom: 0;
     height: 150px;
@@ -219,16 +217,16 @@ footer {
     box-shadow: 0 -8px 6px -6px #999;
 }
 
-.footerLinks a{
-    margin:20px;
+.footerLinks a {
+    margin: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
     color: #000000;
 }
 
-.footerSocials a{
-    margin:10px;
+.footerSocials a {
+    margin: 10px;
 }
 
 
